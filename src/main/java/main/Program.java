@@ -12,5 +12,17 @@ package main;
 public class Program {
     public static void main(String [] args){
         System.out.println("Hello World!");
+        int data = 5;
+        Linkedlist obj = new Linkedlist(data);
+        obj.printList();
+        
+        data = 8;
+        obj.addNode(data);
+        obj.printList();
+        
+        data = 9;
+        obj.addNode(data);
+        
+        obj.printList();
     }
 }
