@@ -35,5 +35,24 @@ public class Linkedlist {
         current.next = newNode;
     }
     
+    void removeNode(int data){
+        Node current = this.node;
+        
+        if (current.data == data){
+            node = current.next;
+            return;
+        }
+        
+        while(current.next != null){
+            
+            if(current.next.data == data){
+                current.next = current.next.next;
+                return;
+            }
+            current = current.next;
+        }
+        
+    }
+    
     private Node node;
 }

@@ -24,5 +24,14 @@ public class Program {
         obj.addNode(data);
         
         obj.printList();
+        
+        data = 8;
+        
+        obj.removeNode(data);
+        
+        data = 9;
+        obj.removeNode(9);
+        
+        obj.printList();
     }
 }
