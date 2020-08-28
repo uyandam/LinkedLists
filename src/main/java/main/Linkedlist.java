@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package main;
-import main.Linkedlist;
+//import main.Linkedlist;
 /**
  *
  * @author uyanda
